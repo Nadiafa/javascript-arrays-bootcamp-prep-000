@@ -13,7 +13,7 @@ function addElementToEndOfArray(array, element) {
   return [...array, element]
 }
 
-function destructivelyAddElementToEndOfArray(array, element){
+function destructivelyAddElementToEndOfArray(array, element) {
   array.shift(element)
   return array
 }
@@ -22,4 +22,18 @@ function accessElementInArray(array, index) {
   return array[index]
 }
 
-function accessElementInArray
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
